@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "Fake Steak",
+  "version": "1.0",
+
+  "description": "Evaluates the veracity of what you're reading.",
+
+  "icons": {
+    "32": "icons/fake-steak-32.png",
+    "48": "icons/fake-steak-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/fake-steak-32.png",
+    "default_title": "Fake Steak",
+    "default_popup": "popup/fake-steak.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_scripts/jquery-3.3.1.min.js"]
+    }
+  ]
+}
