@@ -1,6 +1,8 @@
 # Fake Steak
 ### Moral foundation analysis browser extension
 
+![Sample Fake Steak use image.](/sample_images/sample-image.png/)
+
 # Installation
 
 1. [Clone](https://help.github.com/articles/cloning-a-repository/) this repository.
